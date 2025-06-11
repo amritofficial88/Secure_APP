@@ -1,117 +1,70 @@
-# SecureAPP - Platform Dashboard Pelatihan Keamanan Web
+# SecureAPP - Web Security Training Platform Dashboard
 
-PwnoSec adalah platform pelatihan keamanan web yang dirancang untuk membantu pengguna mempelajari dan memahami berbagai aspek keamanan aplikasi web. Platform ini menyediakan lingkungan yang aman untuk berlatih mengidentifikasi dan mengeksploitasi kerentanan keamanan umum.
+**SecureAPP** is a web security training platform designed to help users learn and understand various aspects of web application security. This platform provides a safe environment to practice identifying and exploiting common security vulnerabilities.
 
-## 🚀 Fitur Utama
+---
 
-### 1. Sistem Autentikasi
-- Login aman dengan kredensial:
-  - Username: pwnosec
-  - Password: pwnosec-staff
-- Validasi input pengguna
-- Pesan error yang informatif
+## Key Features
 
-### 2. Dashboard Interaktif
-- **Status Keamanan**
-  - Tampilan persentase keamanan sistem
-  - Indikator visual status keamanan
-  - Progress bar untuk monitoring
+### 1. Authentication System
+- Secure login with credentials:
+  - **Username**: `pwnosec`
+  - **Password**: `pwnosec-staff`
+- User input validation
+- Informative error messages
 
-- **Monitoring Pengguna Aktif**
-  - Statistik pengguna real-time
-  - Persentase pertumbuhan pengguna
-  - Tren aktivitas pengguna
+### 2. Interactive Dashboard
+#### Security Status
+- System security percentage display
+- Visual indicators for real-time status
+- Monitoring progress bar
 
-- **Log Keamanan**
-  - Pencatatan aktivitas real-time
-  - Kategorisasi status aktivitas
-  - Timestamp untuk setiap aktivitas
+#### Active User Monitoring
+- Real-time user statistics
+- User growth trends and percentages
+- Activity analytics
 
-### 3. Tabel Aktivitas
-- Pelacakan aktivitas pengguna
-- Informasi detail setiap kejadian
-- Status aktivitas dengan indikator warna
-- Riwayat aktivitas terurut berdasarkan waktu
+#### Security Logs
+- Real-time activity logging
+- Categorized activity statuses
+- Timestamps for each action
 
-### 4. Fitur Tampilan
-- Mode Gelap/Terang
-- Antarmuka responsif
-- Desain modern dan profesional
-- Navigasi yang intuitif
+### 3. Activity Table
+- Track all user activities
+- Detailed event information
+- Color-coded status indicators
+- Chronologically sorted activity logs
 
-### 5. Komponen UI
-- Header dengan logo dan navigasi
-- Panel informasi yang informatif
-- Tabel data yang terstruktur
-- Indikator status yang jelas
+### 4. Display Features
+- Dark/Light mode toggle
+- Fully responsive UI
+- Clean, professional design
+- Intuitive and easy navigation
 
-## 💻 Teknologi yang Digunakan
+### 5. UI Components
+- Header with logo and navigation menu
+- Informative panels and widgets
+- Well-structured data tables
+- Clear status indicators and feedback
 
-- **Frontend**: React dengan TypeScript
+---
+
+## Technologies Used:
+
+- **Frontend**: React (with TypeScript)
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **State Management**: React Hooks
 - **Build Tool**: Vite
 
-## 🛠️ Cara Menjalankan Proyek
+## Security Features:
 
-1. Clone repositori
-2. Install dependensi:
-   ```bash
-   npm install
-   ```
-3. Jalankan server development:
-   ```bash
-   npm run dev
-   ```
-4. Buka browser dan akses aplikasi
+- Robust input validation
+- Authentication-protected routes
+- Real-time feedback on security events
+- Activity monitoring & user tracking
 
-## 🔒 Fitur Keamanan
+## 🔄 Project Status
 
-- Validasi input pengguna
-- Proteksi rute terautentikasi
-- Feedback keamanan real-time
-- Monitoring aktivitas pengguna
+This project is currently under active development. Regular updates will be pushed to enhance functionality and improve system security.
 
-## 📱 Responsivitas
-
-Aplikasi dioptimalkan untuk berbagai ukuran layar:
-- Desktop (>1024px)
-- Tablet (768px - 1024px)
-- Mobile (<768px)
-
-## 🎨 Tema dan Kustomisasi
-
-- Toggle mode gelap/terang
-- Warna yang dapat disesuaikan
-- Komponen UI yang modular
-- Desain yang konsisten
-
-## 📊 Monitoring dan Statistik
-
-- Dashboard real-time
-- Statistik pengguna
-- Log aktivitas
-- Indikator performa
-
-## 🔄 Status Proyek
-Proyek ini dalam pengembangan aktif dengan pembaruan berkala untuk menambahkan fitur baru dan peningkatan keamanan.
-
-![screenshot](images/dashboard.png)
-![screenshot](images/login.png)
-
-
-## 📝 Catatan Pengembangan
-
-- Menggunakan TypeScript untuk type safety
-- Implementasi komponen React yang terstruktur
-- Penggunaan Tailwind CSS untuk styling yang konsisten
-- Integrasi icon library untuk UI yang lebih baik
-
-## 🤝 Kontribusi
-
-Kami menyambut kontribusi untuk meningkatkan platform ini. Silakan buat pull request atau laporkan issues yang Anda temukan.
-
-## 📜 Lisensi
-
-Proyek ini dilindungi hak cipta dan penggunaannya terbatas untuk tujuan pembelajaran.
